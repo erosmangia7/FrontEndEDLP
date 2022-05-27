@@ -1,7 +1,9 @@
 body {background-color: #f6fbbf;}
-h1 {background-color: #e4eaa5;}
+body { background-image: url(../imagenes/cocina.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
 h1 {text-align: center;}
-h2 {background-color: #e4eaa5;}
 h2 {text-align: center;}
 h1 {font-style: italic}
 h1 {text-decoration: underline;}
@@ -14,3 +16,28 @@ p {font-weight: bold}
 p {font-size: large}
 h3 {font-style: oblique}
 h3 {font-size: medium}
+p { background-color: black}
+div .parrafo { background-color: gray;}
+#instagram { background-color: white;}
+.redessociales { background-color: white;}
+a { background-color: red;}
+.otrareceta { background: color: red;}
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+ }
+ .btn-wsp{
+background-image: url(../imagenes/wtsp.jpg);
+   position: fixed;
+   width: 55px;
+   height: 55px;
+   line-height: 55px;
+   bottom: 30px;
+   right: 30px;
+   background: #0df053;
+   color: white;
+   border-radius: 50px;
+   text-align: center;
+
+ }
